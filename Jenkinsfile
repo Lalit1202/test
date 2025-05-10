@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Lalit1202/test.git'
+                git branch: 'main', url: 'https://github.com/Lalit1202/test.git'
             }
         }
 
